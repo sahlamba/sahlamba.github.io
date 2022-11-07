@@ -42,4 +42,14 @@ gem install pessimize && pessimize
 
 # Remove unused dependencies from path
 bundle clean 
+
+# Create new blank Jekyll site
+SITE_NAME="jekyll-blank-starter"
+node -v && npm -v && gem -v && \
+gem install jekyll bundler && \
+mkdir "${SITE_NAME}" && cd "${SITE_NAME}" && \
+bundle config set --local path 'vendor/bundle' && \
+bundle init && \
+bundle add jekyll && \
+bundle exec jekyll new . --force --blank # use --force cautiously!
 ```
