@@ -3,6 +3,7 @@
 ## Prerequisite Setup
 
 Jekyll requires Ruby and other pre-requisite dependencies. See docs.
+
 1. [Installation](https://jekyllrb.com/docs/installation/)
 1. [Quickstart](https://jekyllrb.com/docs/)
 
@@ -55,7 +56,7 @@ bundle add no-style-please
 gem install pessimize && pessimize
 
 # Remove unused dependencies from path
-bundle clean 
+bundle clean
 
 # Create new blank Jekyll site (use --force cautiously!)
 SITE_NAME="jekyll-blank-starter"
@@ -71,7 +72,7 @@ echo "_site
 .jekyll-cache
 .jekyll-metadata
 vendor
-node_modules" >> .gitignore 
+node_modules" >> .gitignore
 ```
 
 ## Appendix
