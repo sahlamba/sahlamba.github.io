@@ -79,3 +79,4 @@ node_modules" >> .gitignore
 
 1. TailwindCSS [[link](https://tailwindcss.com/docs/installation/using-postcss)].
 1. Using TailwindCSS with Jekyll [[link](https://mzrn.sh/2022/04/09/starting-a-blank-jekyll-site-with-tailwind-css-in-2022/)].
+1. Adding Prettier pre-commit hook [[link](https://prettier.io/docs/en/precommit.html#option-2-pretty-quickhttpsgithubcomazzpretty-quick)].
