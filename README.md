@@ -6,6 +6,8 @@ Jekyll requires Ruby and other pre-requisite dependencies. See docs.
 1. [Installation](https://jekyllrb.com/docs/installation/)
 1. [Quickstart](https://jekyllrb.com/docs/)
 
+[TailwindCSS](https://tailwindcss.com/docs/installation/using-postcss) requires [NodeJs](https://nodejs.org/en/).
+
 ```bash
 # After installing Ruby, install Jekyll
 gem install jekyll bundler
@@ -20,13 +22,25 @@ bundle config set --local path 'vendor/bundle'
 ## Install Dependencies
 
 ```bash
-bundle install
+bundle install && npm install
 ```
 
 ## Start Jekyll Server
 
 ```bash
 bundle exec jekyll serve
+```
+
+## Build Production site
+
+```bash
+NODE_ENV=production JEKYLL_ENV=production bundle exec jekyll build
+```
+
+## Start Production site
+
+```bash
+NODE_ENV=production JEKYLL_ENV=production bundle exec jekyll serve
 ```
 
 Go to http://localhost:4000/
@@ -59,3 +73,8 @@ echo "_site
 vendor
 node_modules" >> .gitignore 
 ```
+
+## Appendix
+
+1. TailwindCSS [[link](https://tailwindcss.com/docs/installation/using-postcss)].
+1. Using TailwindCSS with Jekyll [[link](https://mzrn.sh/2022/04/09/starting-a-blank-jekyll-site-with-tailwind-css-in-2022/)].
