@@ -1,6 +1,24 @@
 ---
 ---
 
+{% assign primary_light = site.data.theme.colors.primary.light %}
+{% assign primary_base = site.data.theme.colors.primary.base %}
+{% assign primary_dark = site.data.theme.colors.primary.dark %}
+{% assign inverted_light = site.data.theme.colors.inverted.light %}
+{% assign inverted_base = site.data.theme.colors.inverted.base %}
+{% assign inverted_dark = site.data.theme.colors.inverted.dark %}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary-light: {{ primary_light }};
+    --color-primary-base: {{ primary_base }};
+    --color-primary-dark: {{ primary_dark }};
+    --color-inverted-light: {{ inverted_light }};
+    --color-inverted-base: {{ inverted_base }};
+    --color-inverted-dark: {{ inverted_dark }};
+  }
+}

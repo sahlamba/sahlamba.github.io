@@ -1,0 +1,9 @@
+colors:
+  primary:
+    light: '#22d3ee'
+    base: '#06b6d4'
+    dark: '#0891b2'
+  inverted:
+    light: '#fdba74'
+    base: '#fb923c'
+    dark: '#f97316'

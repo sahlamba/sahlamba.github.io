@@ -4,3 +4,6 @@ _site
 .jekyll-metadata
 vendor
 node_modules
+
+# To allow using Jekyll syntax in CSS files
+*.css
