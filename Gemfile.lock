@@ -62,11 +62,12 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 4.3)
-  jekyll-postcss
-  webrick
+  jekyll-postcss (= 0.5.0)
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.3.25

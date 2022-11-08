@@ -73,6 +73,12 @@ echo "_site
 .jekyll-metadata
 vendor
 node_modules" >> .gitignore
+
+# Run and test GitHub Actions locally (deploy job does not work because of token issues!)
+mkdir /tmp/artifacts;
+act -v -r \
+--artifact-server-path /tmp/artifacts \
+-s GITHUB_TOKEN=<token>
 ```
 
 ## Appendix
@@ -80,3 +86,12 @@ node_modules" >> .gitignore
 1. TailwindCSS [[link](https://tailwindcss.com/docs/installation/using-postcss)].
 1. Using TailwindCSS with Jekyll [[link](https://mzrn.sh/2022/04/09/starting-a-blank-jekyll-site-with-tailwind-css-in-2022/)].
 1. Adding Prettier pre-commit hook [[link](https://prettier.io/docs/en/precommit.html#option-2-pretty-quickhttpsgithubcomazzpretty-quick)].
+1. Building and deploying site with GitHub Actions -
+   - `jekyll-postcss` build [issue](https://github.com/mhanberg/jekyll-postcss/issues/20) thread recommends using `jekyll-action-ts`.
+   - Using [jekyll-action-ts](https://github.com/limjh16/jekyll-action-ts) to build Jekyll with NodeJs (for postcss).
+   - Custom build/deploy workflow [[link](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow)].
+   - Enable GitHub Pages and select source to `GitHub Actions` in [settings](https://github.com/sahlamba/sahlamba.github.io/settings/pages).
+1. Testing GitHub Actions locally [[link](https://github.com/nektos/act)] -
+   - [Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-fine-grained-personal-access-token) to generate Personal Access GitHub tokens.
+     - Fine-grained permissions required to run workflow: `content (write), pages (write)`
+     - Classic permissions scope required to run workflow: `repo (all)`
