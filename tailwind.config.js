@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
 module.exports = {
@@ -37,6 +38,10 @@ module.exports = {
         DEFAULT: colors.gray[800],
         dull: colors.gray[900],
       },
+    },
+    fontFamily: {
+      sans: ['Raleway', ...defaultTheme.fontFamily.sans],
+      serif: ['Crimson Text', ...defaultTheme.fontFamily.serif],
     },
   },
   plugins: [],
