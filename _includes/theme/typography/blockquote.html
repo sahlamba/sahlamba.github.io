@@ -1,12 +1,16 @@
 <div
   class="flex flex-col items-center space-y-2 md:flex-row md:items-start md:justify-start md:space-y-0 md:space-x-8">
   <p class="w-28 text-center text-xl underline md:text-left">Blockquote</p>
-  <blockquote
-    class="border-l-4 border-l-primary bg-opacity-50 bg-gradient-to-r from-primary px-8 py-4 text-xl font-light italic text-dark dark:border-l-inverted dark:from-inverted-dark dark:text-light">
-    <p>
-      Voluptatibus porro dicta, impedit voluptates velit, sit accusamus autem
-      inventore iste laboriosam placeat deleniti eos corporis assumenda eligendi
-      distinctio.
-    </p>
-  </blockquote>
+  <div class="relative">
+    <div
+      class="absolute h-full w-full bg-opacity-50 bg-gradient-to-r from-primary text-dark dark:from-inverted dark:text-light"></div>
+    <blockquote
+      class="relative m-0.5 mx-1 mr-0 bg-light-dull p-4 text-xl font-light italic dark:bg-dark-dull dark:text-light">
+      <p>
+        Voluptatibus porro dicta, impedit voluptates velit, sit accusamus autem
+        inventore iste laboriosam placeat deleniti eos corporis assumenda
+        eligendi distinctio.
+      </p>
+    </blockquote>
+  </div>
 </div>
