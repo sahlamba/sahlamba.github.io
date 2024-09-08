@@ -6,7 +6,7 @@ permalink: /about/
 
 Software Development Engineer with 7+ years of experience in designing & developing application systems. Highly technical & meticulous professional focused on shipping performant scalable enterprise solutions, working on full-stack tech. Passionate about learning something new every day.
 
-Currently working as a Software Development Engineer at Amazon Search. Based out of Seattle, WA.
+Currently working at Amazon Search, based in Seattle, WA.
 
 Get in touch with me on [LinkedIn][1]!
 
