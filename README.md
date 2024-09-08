@@ -27,6 +27,9 @@ bundle install
 
 ```bash
 bundle exec jekyll serve
+
+# If you run into a failure while starting the server, try updating dependencies
+bundle update
 ```
 
 Go to http://localhost:4000/
