@@ -1,14 +1,14 @@
 entries:
-  - title: me
+  - title: about me
+    url: /about/
+  - title: get in touch
     entries:
       - title: email
         url: mailto:ping@sahillamba.com
       - title: linkedin
         url: https://www.linkedin.com/in/sahillamba/
       - title: github
-        url: http://github.com/sahlamba/
-  - title: about
-    url: /about/
+        url: https://github.com/sahlamba/
   # - title: all posts
   #   post_list:
   #     limit: 3
