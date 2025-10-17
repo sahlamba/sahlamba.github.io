@@ -4,10 +4,12 @@ title: Sahil Lamba (About)
 permalink: /about/
 ---
 
-Software Development Engineer with 7+ years of experience in designing & developing application systems. Highly technical & meticulous professional focused on shipping performant scalable enterprise solutions, working on full-stack tech. Passionate about learning something new every day.
+Software Engineer with 8+ years delivering scalable, high-performance enterprise systems. Combines deep technical expertise with mentorship, guiding cross-functional projects, fostering independent problem-solving, and influencing system design. Excels at tackling complex challenges, driving engineering best practices, and delivering innovative, reliable solutions that maximize business impact, operational excellence, and customer value.
 
-Currently working at Amazon Search, based in Seattle, WA.
+Currently working as a `Software Engineer` at `Amazon Search`, based in `Seattle, WA`.
 
-Get in touch with me on [LinkedIn][1]!
+Connect with me on [LinkedIn][1], check out my [GitHub][2] profile, or drop me an [email][3].
 
 [1]: https://www.linkedin.com/in/sahillamba/
+[2]: https://github.com/sahlamba
+[3]: mailto:ping@sahillamba.com
