@@ -21,9 +21,7 @@
 title: Sahil Lamba
 email: ping@sahillamba.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Sahil Lamba – Software Engineer specializing in building scalable, high-performance
-  systems and distributed data pipelines. Passionate about solving complex problems,
-  designing reliable solutions, and mentoring teams to deliver impactful software.
+  "I think CI/CD means continuous impact/continuous debugging"
 baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: sahlamba
@@ -35,7 +33,7 @@ theme_config:
   appearance: 'auto'
   back_home_text: '<' # customize text for homepage link in post layout
   date_format: '%Y-%m-%d' # customize how date is formatted
-  show_description: false # show blog description in home page
+  show_description: true # show blog description in home page
 
 plugins:
   - jekyll-feed
