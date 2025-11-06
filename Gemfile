@@ -9,6 +9,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.9"
 gem "webrick", "~> 1.7"
+gem "base64", "~> 0.2.0"
+gem "bigdecimal"
 # Theme no-style-please v0.4.7 only works with Jekyll v3.9.0 at the time of writing.
 gem "no-style-please", "~> 0.4"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
